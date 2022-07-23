@@ -15,7 +15,9 @@ int main(void)
   {
     print_n_times(height - row, ' ');
     print_n_times(row, '#');
-    print_n_times(height, '#');
+    print_n_times(1, ' ');
+    print_n_times(row, '#');
+    print_n_times(height - row, ' ');
     printf("\n");
   }
 }
